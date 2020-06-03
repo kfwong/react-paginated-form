@@ -4,7 +4,7 @@ Implemented in React hooks so we can ship the compoenent without extra dependenc
 
 ### Usage:
 
-1. Putting any components into children of PaginatedForm will automatically paginate them. You can use on
+1. Putting any components into children of PaginatedForm will automatically paginate them.
 ```typescript jsx
 // you can use onChangePage to customize pagination behaviour such as conditionally skip page
 const logPage = (oldPage, newPage) => {
@@ -14,7 +14,7 @@ const logPage = (oldPage, newPage) => {
 
 <PaginatedForm
       titles={["Page0", "Page1", "Page2", "Page3"]}
-      onChangePage={...}
+      onChangePage={logPage}
     >
       <Page0/>
       <Page1/>
