@@ -28,7 +28,7 @@ const logPage = (oldPage, newPage) => {
 import {usePaginatedFormControl} from "./PaginatedForm";
 
 export const Page1: React.FC = (props) => {
-  const { nextPage, previousPage, goto } = usePaginatedFormControl();
+  const { nextPage, previousPage, gotoPage } = usePaginatedFormControl();
 
   return (
     <>
