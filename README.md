@@ -1,5 +1,5 @@
 ## PaginatedForm
-Pagination each sub component automatically.
+Paginate each sub component automatically.
 Implemented in React hooks so we can ship the compoenent without extra dependency like redux.
 
 ### Usage:
