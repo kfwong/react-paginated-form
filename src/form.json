@@ -1,0 +1,294 @@
+{
+  "sections": [
+    {
+      "title": "Business Needs",
+      "longDescription": null,
+      "shortDescription": "Business Needs",
+      "navigation": {
+        "nextButtonLabel": "Tell Us More",
+        "description": "Can’t find what you are looking for? Contact our <a href='#'>SME Centres</a> for further assistance."
+      },
+      "questions": [
+        {
+          "text": "Select Up to 2 Business Needs",
+          "type": "checkbox",
+          "options": [
+            {
+              "label": "Bring My Business Overseas",
+              "metaTag": "Internationalisation",
+              "description": "Enter a new market\nParticipate in trade shows \nFinancing options to support my expansion plans overseas"
+            },
+            {
+              "label": "Improve My Financial Competency",
+              "metaTag": "Financialmanagement",
+              "description": "Adopt financial and budget management tools\nFormation of internal corporate structures\nOptimise financing, investment, and risk management"
+            },
+            {
+              "label": "Adopt Technology to Digitise My Business",
+              "metaTag": "Techadoption",
+              "description": "Adopt pre-scoped productivity solution to digitise current processes\nAutomate or enhance existing processes with customised technology"
+            },
+            {
+              "label": "Review Operational Processes",
+              "metaTag": "Processredesign",
+              "description": "Review current business processes to achieve higher productivity\nAdopt sustainable practices to improve operational efficiency"
+            },
+            {
+              "label": "Better Manage and Upskill Employees",
+              "metaTag": "Workforcedevelopment",
+              "description": "Send workers for training and development \nDevelop in-house training programs and courses\nBuild HR capabilities"
+            },
+            {
+              "label": "Improvements for My Workers",
+              "metaTag": "Workplace",
+              "description": "Redesign job scope for older workers\nImplement flexible working arrangements\nWage increase support for my workers"
+            },
+            {
+              "label": "Develop My Brand and Improve Brand Awareness",
+              "metaTag": "Brandingandmarketing",
+              "description": "Attend trade shows\nOrganise events or online marketing campaigns\nDevelop a marketing strategy"
+            },
+            {
+              "label": "Conduct R&D or to Develop/Test New Products and Services",
+              "metaTag": "Productdevelopment",
+              "description": "Assess market viability\nConduct pilots and test-bedding\nDevelop and monetize IP"
+            },
+            {
+              "label": "Improve My Service Delivery",
+              "metaTag": "Serviceexcellence",
+              "description": "Conduct studies on customer needs\nBring services online\nRedesign service process to enhance customer experience"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "More Details",
+      "longDescription": "Let us know your business needs and we will recommend you the right assistance schemes.",
+      "shortDescription": "More Details",
+      "navigation": {
+        "nextButtonLabel": "Continue"
+      },
+      "questions": [
+        {
+          "text": "Which of these activities are you interested in?",
+          "type": "checkbox",
+          "options": [
+            {
+              "label": "Identify potential partners and B2B customers via 3rd party"
+            },
+            {
+              "label": "Marketing your brand"
+            },
+            {
+              "label": "Participation in Trade Fairs"
+            },
+            {
+              "label": "Setting up your first office overseas"
+            },
+            {
+              "label": "Others"
+            }
+          ],
+          "value": "zn1cprhtc"
+        },
+        {
+          "text": "Is this a new market for your business",
+          "type": "Checkbox",
+          "options": [
+            {
+              "label": "YES"
+            },
+            {
+              "label": "NO"
+            }
+          ],
+          "value": "wt4acce6m"
+        },
+        {
+          "text": "Which of these activities are you interested in?",
+          "type": "checkbox",
+          "options": [
+            {
+              "label": "Working Capital"
+            },
+            {
+              "label": "Startup Funding"
+            },
+            {
+              "label": "Financial Management"
+            },
+            {
+              "label": "Others"
+            }
+          ]
+        },
+        {
+          "text": "Are you adopting an off-the-shelf product?",
+          "type": "YesNoCheckbox",
+          "options": [
+            {
+              "label": "YES"
+            },
+            {
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "text": "Which of these activities are you interested in?",
+          "type": "checkbox",
+          "options": [
+            {
+              "label": "Human Resource Capabilities"
+            },
+            {
+              "label": "Training for workers"
+            }
+          ]
+        },
+        {
+          "text": "Are you looking to grow interns or to train young Singaporeans overseas for in-market knowledge, as part of business expansion plan in SEA, China and India?",
+          "type": "YesNoCheckbox",
+          "options": [
+            {
+              "label": "YES"
+            },
+            {
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "text": "Which of these areas are you interested in?",
+          "type": "checkbox",
+          "options": [
+            {
+              "label": "Workplace safety and health"
+            },
+            {
+              "label": "Flexible Work Arrangments"
+            },
+            {
+              "label": "Others"
+            }
+          ]
+        },
+        {
+          "text": "Are you looking to promote your business overseas?",
+          "type": "YesNoCheckbox",
+          "options": [
+            {
+              "label": "YES"
+            },
+            {
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "text": "Do you already have a prototype?",
+          "type": "YesNoCheckbox",
+          "options": [
+            {
+              "label": "YES"
+            },
+            {
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "text": "Annual Sales Turnover",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "option 1"
+            },
+            {
+              "label": "option 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Business Details",
+      "longDescription": "Let us know your business needs and we will recommend you the right assistance schemes.",
+      "shortDescription": null,
+      "navigation": {
+        "nextButtonLabel": "View Recommendations"
+      },
+      "questions": [
+        {
+          "text": "What is your company name?",
+          "type": "textfield"
+        },
+        {
+          "text": "What is your company UEN?",
+          "type": "textfield"
+        },
+        {
+          "text": "Which sector are you in?",
+          "type": "dropdown",
+          "option": [
+            {
+              "label": "option 1"
+            },
+            {
+              "label": "option 2"
+            }
+          ]
+        },
+        {
+          "text": "Number of years in operations?",
+          "type": "dropdown",
+          "option": [
+            {
+              "label": "option 1"
+            },
+            {
+              "label": "option 2"
+            }
+          ]
+        },
+        {
+          "text": "Employee Size",
+          "type": "dropdown",
+          "option": [
+            {
+              "label": "option 1"
+            },
+            {
+              "label": "option 2"
+            }
+          ]
+        },
+        {
+          "text": "Annual Sales Turnover",
+          "type": "dropdown",
+          "option": [
+            {
+              "label": "option 1"
+            },
+            {
+              "label": "option 2"
+            }
+          ]
+        },
+        {
+          "text": "What % of your business is owned by a Singaporean or PR?",
+          "type": "dropdown",
+          "option": [
+            {
+              "label": "option 1"
+            },
+            {
+              "label": "option 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

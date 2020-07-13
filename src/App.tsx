@@ -1,33 +1,32 @@
 import React from 'react';
 import {PaginatedForm} from "./PaginatedForm";
-import {Page0} from "./Page0";
 import { FormContextProvider} from "./FormContext";
-import {Page1} from "./Page1";
-import {Page2} from "./Page2";
+import {SelectionForm} from "./pages/SelectionForm";
+import {MixForm} from "./pages/MixForm";
 
-const PageWithoutControl = () => <><h1>Page Without Control </h1><p>This is page without control.</p></>;
-const Page5 = () => <h1>page5</h1>;
+const formData = require('./form.json')
 
-const App = () => {
-  const logPage = (oldPage, newPage) => {
-    //if(newPage === 1) return 2;
-    console.log(`${oldPage} => ${newPage}`)
-    return newPage;
-  }
+interface FormProps {
+  data: any;
+}
 
+const Form: React.FC<FormProps> = (props) => {
+  console.log(props.data);
+  const selectionFormData = props.data.sections[0];
+  const mixFormData = props.data.sections[1];
   return (
-  <FormContextProvider>
-    <PaginatedForm
-      titles={["Page0", "Page1", "Page2", "Page3"]}
-      onChangePage={logPage}
-    >
-      <Page0/>
-      <Page1/>
-      <Page2/>
-      <PageWithoutControl/>
-    </PaginatedForm>
-  </FormContextProvider>
+    <FormContextProvider>
+      <PaginatedForm titles={[selectionFormData.title, mixFormData.title]} >
+
+        <SelectionForm data={selectionFormData}/>
+        <MixForm data={mixFormData}/>
+
+      </PaginatedForm>
+    </FormContextProvider>
   )
 }
+
+
+const App = () => <Form data={formData} />
 
 export default App;

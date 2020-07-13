@@ -13,10 +13,10 @@ const logPage = (oldPage, newPage) => {
 }
 
 <PaginatedForm
-      titles={["Page0", "Page1", "Page2", "Page3"]}
+      titles={["SelectionForm", "Page1", "Page2", "Page3"]}
       onChangePage={...}
     >
-      <Page0/>
+      <SelectionForm/>
       <Page1/>
       <Page2/>
       ...
